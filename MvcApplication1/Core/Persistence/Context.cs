@@ -5,7 +5,7 @@ namespace Core.Persistence
 {
     public class Context : DbContext
     {
-        public DbSet<User> Users { get; set; }
+        public DbSet<User2> User2s { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -37,12 +37,12 @@ namespace MvcApplication1.Controllers
 
         public ActionResult DbManipulate()
         {
-            return View(_context.Users);
+            return View(_context.User2s);
         }
 
-        public ActionResult Create(User user)
+        public ActionResult Create(User2 user)
         {
-            _context.Users.Add(user);
+            _context.User2s.Add(user);
             _context.SaveChanges();
 
             return RedirectToAction("Index");
