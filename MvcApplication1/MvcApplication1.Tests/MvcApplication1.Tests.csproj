@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{829483E3-C159-47C6-960F-FEDA438A5604}</ProjectGuid>
+    <ProjectGuid>{D9105F9E-904E-4D0F-9037-08CE2B9B2F70}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MvcApplication1.Tests</RootNamespace>
