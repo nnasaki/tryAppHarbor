@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Core.Model.User>
+
+@{
+    ViewBag.Title = "DbManipulate";
+}
+
+<h2>DbManipulate</h2>
+
+<ul>
+    @foreach (var user in Model)
+    {
+        <li>@user.Name (@user.EmailAddress)</li>
+    }
+</ul>
+
+@using(Html.BeginForm("Create", "Home", FormMethod.Post))
+{
+    <input type="text" name="Name" />
+    <input type="text" name="EmailAddress" />
+    <input type="submit" value="Submit" />
+}
