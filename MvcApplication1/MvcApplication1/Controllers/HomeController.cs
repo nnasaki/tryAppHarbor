@@ -45,7 +45,7 @@ namespace MvcApplication1.Controllers
             _context.User2s.Add(user);
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("DbManipulate");
         }
     }
 }
